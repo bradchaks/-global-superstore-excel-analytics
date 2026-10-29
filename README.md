@@ -14,7 +14,7 @@ The result is a reporting workbook that enables users to explore sales performan
 
 ## 🖥️ Dashboard Preview
 
-![Global Superstore Sales & Profitability Dashboard](Screenshots/dashboard.png)
+![Global Superstore Sales & Profitability Dashboard](dashboard.png)
 
 *Interactive Excel dashboard featuring KPI cards, sales visualisations, profitability analysis and slicers.*
 
