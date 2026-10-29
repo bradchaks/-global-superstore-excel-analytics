@@ -1,136 +1,121 @@
-# 📊 Global Superstore | Sales & Profitability Analytics
+# Global Superstore | Sales & Profitability Analytics
 
-**An interactive Excel dashboard analysing $12.64M in sales to uncover profitability trends, product performance and regional opportunities.**
+An interactive Excel analytics project exploring sales performance, profitability, product trends and regional results using **Microsoft Excel, Power Query, PivotTables, PivotCharts and interactive slicers**.
 
-## 📌 Project Overview
+The objective was to transform raw sales data into a clear, interactive dashboard that helps stakeholders understand business performance and identify opportunities for improvement.
 
-How can raw transactional data be transformed into meaningful business intelligence?
+## 📊 Dashboard Preview
 
-In this project, I used **Microsoft Excel to build an interactive sales and profitability reporting solution** using the Global Superstore dataset, covering 2011–2014.
+![Global Superstore Sales and Profitability Dashboard](dashboard.png)
 
-The project involved preparing and validating data, developing analytical reports, building interactive visualisations and translating findings into business insights.
+## 🎯 Project Objectives
 
-The result is a reporting workbook that enables users to explore sales performance, investigate profitability and identify areas requiring further analysis.
+- Analyse overall sales and profitability.
+- Identify high-performing and loss-making product categories.
+- Explore monthly sales trends and regional performance.
+- Build an interactive dashboard for business reporting.
+- Perform data quality checks to improve confidence in the analysis.
+- Translate findings into actionable business insights.
 
-## 🖥️ Dashboard Preview
+## 🛠️ Tools & Technical Skills
 
-![Global Superstore Sales & Profitability Dashboard](dashboard.png)
+| Tool / Technique | Application |
+|---|---|
+| Microsoft Excel | Data analysis, calculations and reporting |
+| Power Query | Data preparation, cleaning and transformation |
+| PivotTables | Aggregating sales, profit and product performance |
+| PivotCharts | Visualising trends and comparing performance |
+| Interactive slicers | Filtering results by shipping mode, customer segment and region |
+| KPI cards | Communicating key business performance indicators |
+| Data quality checks | Checking for duplicate records and errors |
 
-*Interactive Excel dashboard featuring KPI cards, sales visualisations, profitability analysis and slicers.*
-
-## 🎯 Key Performance Indicators
+## 📈 Key Performance Indicators
 
 | Metric | Result |
 |---|---:|
 | Total Sales | $12,642,501.91 |
 | Total Profit | $1,467,457.29 |
 | Units Sold | 178,312 |
-| Overall Profit Margin | 11.61% |
-| Reporting Period | 2011–2014 |
+| Profit Margin | 11.61% |
 
-These KPIs provide a consolidated overview of business performance, allowing users to assess revenue, profitability and sales volume at a glance.
+These indicators provide an overview of sales volume, revenue generation and overall profitability.
 
 ## 🔍 Key Business Insights
 
-### 1. Overall Business Performance
-The business generated approximately **$12.64 million in sales and $1.47 million in profit**, with an overall profit margin of 11.61%.
+### 1. Sales Growth
+Sales increased from approximately **$2.26 million in 2011 to $4.30 million in 2014**, representing an increase of approximately 90%.
 
-This establishes a baseline for evaluating performance across products, regions and customer segments.
+This highlights substantial revenue growth over the period analysed.
 
 ### 2. Product Profitability
-**Copiers generated approximately $258,568 in profit**, making them the highest profit-generating sub-category in the analysis.
+- **Copiers:** Generated approximately $258,567.55 in profit, making them a strong contributor to profitability.
+- **Tables:** Recorded an approximate loss of $64,083.39, highlighting an area requiring further investigation.
 
-This highlights a product area worth investigating further to understand its contribution to overall profitability.
+These findings demonstrate why analysing profit alongside sales is important when evaluating product performance.
 
-### 3. Identifying Loss-Making Products
-The Tables sub-category recorded a loss of approximately **$64,083**.
+### 3. Regional Performance
+Regional analysis allows performance to be compared across markets and identifies areas that may warrant further investigation.
 
-This identifies an area for further investigation, including discounting, pricing strategies, shipping costs and product-level profitability.
+### 4. Monthly Sales Trends
+Monthly sales analysis helps reveal changes in revenue over time and provides a starting point for investigating seasonal patterns and planning future sales activity.
 
-The available data highlights the loss but does not, by itself, establish its underlying cause.
+## 📊 Dashboard Features
 
-### 4. Sales Growth Over Time
-Annual sales increased from approximately **$2.26 million in 2011 to $4.30 million in 2014**.
+The dashboard brings the analysis together in one interactive reporting view.
 
-This represents an increase of approximately 90% across the period, demonstrating the value of time-series analysis in identifying longer-term performance trends.
+- KPI cards summarising sales, profit, units sold and profit margin.
+- Category sales breakdown.
+- Profitability comparison across product sub-categories.
+- Monthly sales trend visualisation.
+- Interactive slicers for shipping mode, customer segment and region.
+- Business insights highlighting important findings.
 
-### 5. Exploring Regional Profitability
-The analysis identified a reported profit margin of 26.62% for Canada, despite its comparatively low sales volume.
+The slicers allow users to explore the data dynamically and compare performance across different business segments.
 
-This illustrates why revenue alone is insufficient when evaluating business performance: profitability ratios can reveal additional opportunities for investigation.
+## 🧹 Data Preparation & Quality
 
-*Insights are based on the supplied dataset and should be interpreted within its reporting period and scope.*
+Data preparation and validation formed part of the analytical workflow.
 
-## 🛠️ Technical Skills Demonstrated
+- Used Power Query to inspect and prepare the dataset.
+- Checked for duplicate records.
+- Checked for errors.
+- Reviewed the cleaned dataset before creating the analysis.
+- Organised the analysis into dedicated worksheets for category, monthly, product and regional performance.
 
-### Data Preparation & Quality
-- Prepared transactional data for analysis using Excel and Power Query.
-- Investigated potential data quality issues using dedicated validation checks.
-- Checked records for duplicate identifiers, missing values and data inconsistencies.
-- Structured the cleaned data for downstream analysis.
+The duplicate and error checks returned no records requiring correction in the checks performed.
 
-### Data Analysis & Reporting
-- Built PivotTables to aggregate and investigate sales and profitability.
-- Developed PivotCharts to communicate findings visually.
-- Used Excel formulas to calculate and display headline performance metrics.
-- Calculated overall profit margin using total profit divided by total sales.
+## 💼 Business Value
 
-### Dashboard Development
-- Designed KPI cards for key business metrics.
-- Created sales, product profitability and category visualisations.
-- Implemented interactive slicers for Region, Customer Segment and Ship Mode.
-- Connected slicers to multiple PivotTables to support coordinated filtering.
-- Applied consistent formatting to improve readability and usability.
-
-### Business Interpretation
-- Identified profitable and loss-making product sub-categories.
-- Evaluated sales performance over time.
-- Compared sales volume with profitability.
-- Presented findings in a format designed to support business investigation and decision-making.
-
-## 💼 Business Applications
-
-The reporting approach demonstrated in this project could help business teams:
+This project demonstrates how spreadsheet-based analytics can support business decision-making by helping stakeholders:
 
 - Monitor revenue and profitability.
-- Identify products requiring further financial investigation.
-- Compare performance across regions and customer segments.
-- Explore historical sales trends.
-- Reduce reliance on manually reviewing individual transactions.
+- Identify profitable and loss-making products.
+- Compare regional and customer-segment performance.
+- Explore changes in sales over time.
+- Investigate potential areas for commercial improvement.
 
-## 📁 Repository Structure
+The analysis also reinforces the importance of combining data preparation, validation, visualisation and business interpretation rather than focusing on charts alone.
 
-```text
-Global-Superstore-Excel-Analytics/
-│
-├── README.md
-├── Data/
-├── Excel/
-│   └── Global_Superstore_Analytics.xlsx
-└── Screenshots/
-    └── dashboard.png
-```
+## 📁 Repository Contents
 
-| File or Folder | Purpose |
+| File | Description |
 |---|---|
-| `Excel/` | Completed Excel reporting workbook, including the dashboard and supporting analysis. |
-| `Screenshots/` | Dashboard preview for visitors to the repository. |
-| `Data/` | Source dataset, subject to its licence and redistribution permissions. |
+| `Global_Superstore_Analytics.xlsb` | Excel workbook containing the analysis and interactive dashboard |
+| `dashboard.png` | Dashboard preview |
+| `README.md` | Project overview, methodology and key findings |
 
 ## 🚀 How to Explore the Project
 
-1. Open the Excel workbook in Microsoft Excel 2019 or a compatible desktop version.
-2. Navigate to the Dashboard worksheet.
-3. Use the Region, Segment and Ship Mode slicers to filter the analysis.
-4. Explore the visualisations and compare sales and profitability.
-5. Review the supporting worksheets to understand the analysis and data quality checks.
+1. Preview the dashboard image above.
+2. Download `Global_Superstore_Analytics.xlsb` from this repository.
+3. Open the workbook in Microsoft Excel.
+4. Navigate through the analysis worksheets.
+5. Use the dashboard slicers to explore different segments and regions.
 
-**Note:** Excel desktop is recommended for the full interactive experience. PivotTable refresh behaviour may depend on the availability of the source data and the workbook's configuration.
+**Note:** The workbook is saved in Excel Binary Workbook (`.xlsb`) format to reduce file size. Open it in desktop Microsoft Excel for the intended interactive experience.
 
-## 📈 Project Outcome
+## 👨‍💻 Project Outcome
 
-This project demonstrates my ability to take a dataset through a practical analytical workflow: **data preparation, quality checking, analysis, visualisation and business interpretation**.
+This project demonstrates practical application of Excel-based data analytics, including data preparation, quality checks, performance analysis, interactive reporting and business insight generation.
 
-It forms part of my developing data analytics portfolio, alongside projects involving SQL, Power BI and Python.
-
-I am continuing to develop my technical skills and business understanding as I work towards a career in data analytics.
+It forms part of my developing data analytics portfolio as I continue building my skills in **Excel, SQL, Power BI and Python**.
